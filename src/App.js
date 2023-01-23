@@ -9,10 +9,16 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const Card = [
     {
+      name: "Snack-eat",
+      description: "My snacks store",
+      src: " https://stack-eat.onrender.com/",
+    },
+    {
       name: "Olatube",
       description: "My youtube clone",
       src: "https://junnytube.netlify.app/",
     },
+
     {
       name: "E-commerce",
       description: "Amazon clone",
@@ -148,11 +154,11 @@ function App() {
             programming.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 dark:bg-white-900">
-          {/* <div className="lg:flex gap-10 dark:bg-white-900 flex-wrap "> */}
+
+        <div className="container w-100 lg:grid grid-cols-2 gap-4 sm:w-4/5 mx-auto flex flex-col dark:bg-white-900  ">
           {Card.map((info) => (
             <a href={`${info.src}`}>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-2 ">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 mx-2  ">
                 <h1 className="text-gray-800 py-1   dark:text-white text-2xl">
                   {info.name}
                 </h1>
