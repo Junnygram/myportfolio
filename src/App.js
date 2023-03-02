@@ -27,7 +27,7 @@ function App() {
     {
       name: "Monster",
       description: "A filter game",
-      src: "monsterr-rolodex.netlify.app",
+      src: "https://monsterr-rolodex.netlify.app/",
     },
     {
       name: "Data-finance ",
@@ -47,13 +47,13 @@ function App() {
     },
 
     {
-      name: "Portfolio1",
-      description: "My 1st portfolio",
+      name: "Project1",
+      description: "My 1st project",
       src: "https://olaleyeportfolio.netlify.app/",
     },
     {
-      name: "Portfolio 2",
-      description: "My 2nd portfolio",
+      name: "Project2",
+      description: "My 2nd project",
       src: "https://olaleyereactportfolio.netlify.app",
     },
   ];
@@ -76,7 +76,7 @@ function App() {
                 <li>
                   <a
                     className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                    href="https://drive.google.com/file/d/1jSpAcUVI4E-LeIKvBtM2FcSBmSlh0pxg/view?usp=sharing"
+                    href="https://olasportfolio.netlify.app"
                   >
                     Resume
                   </a>
@@ -102,8 +102,8 @@ function App() {
             </h2>
             <h3>Developer and Designer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I am a <span className="text-teal-500">MERN </span> deveoper, join
-              me and lets start building
+              I am a <span className="text-teal-500">Frontend </span> deveoper,
+              join me and lets start building
             </p>
           </article>
 
